@@ -1,0 +1,10 @@
+En este proyecto se requería integrar un mapa interactivo en una interfaz web desarrollada con React y Next.js. Para esto, se evaluaron dos opciones principales: Google Maps API y Leaflet.js.
+
+1. Leaflet es fácil de implementar con React mediante la librería react-leaflet.
+2. A diferencia de Google Maps, Leaflet usa mapas abiertos como OpenStreetMap, 
+lo que evita configuraciones adicionales con claves privadas.
+
+deducción
+el mapa implementado con Leaflet no incluye funcionalidades avanzadas como cálculo de rutas o búsqueda de lugares,
+ lo que limita la interacción del usuario. Además, la visualización puede mejorar en dispositivos móviles mediante ajustes de diseño responsivo. 
+A futuro, se podría considerar integrar servicios adicionales o migrar a Google Maps si se requieren capacidades más robustas.
